@@ -1,0 +1,33 @@
+    -- ALGORITMO
+
+PASOS A REALIZAR
+
+    Declarar los recargos ya establecidos como constantes
+    Declarar las varibales que tomaran valor en el programa
+    Pedir el nombre de cliente
+    Pedir edad del cliente
+    Pedir la cantidad del salario del cliente
+    Validar que los datos ingresador no esten vacios y sea mayor de edad
+        Si no estan vacios, continuar con el siguiente paso
+            Preguntar si tiene Conyugue
+                Si tiene conyugue, preguntar y almacenar la edad del mismo
+                Si no, continuar con el siguiente paso 
+            Preguntar si tiene Hij@s
+                Si tiene hijos, preguntar cuantos hijos tienes y almacenar la cantiad
+                Si no, continuar con el siguiente paso
+            Preguntar si tiene Propiedades
+                Si tiene propiedades, preguntar y almacenar la cantidad
+                Si no, continuar con el siguiente paso
+            Calcular el recargo por la edad del cliente
+            Calcular el recargo por la edad del conyugue, si tiene
+            Cacluar el recargo por la cantidad de hijos, si tiene
+            Calcular el recargo por el salario asegurado
+            Sumar todos los recargos que se tienen 
+            Calcular el recargo de la cotizacion por propiedad, si tiene
+            Mostrar al usuario los recargos de cada apartado
+            Mostrar el total de la cotizacion junto con el precio base
+        Si es menor de edad cerrar el programa
+        Si estan vacios, cerrar la cotizacion
+    Al terminar indicar si se desea realizar otra cotizacion
+        Si lo desea, repetir al primer paso y limpiar variables
+        Si no lo desea, terminar el programa.

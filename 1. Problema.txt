@@ -1,0 +1,22 @@
+    --  PROBLEMA --
+
+El problema principal que se presenta a nivel de 
+producción es el TIEMPO.
+
+    -- SOLUCION --
+
+Se debe de buscar la forma de automatizar el proceso de cotización
+que se hace constantemente con los clientes.
+
+Puntos principales a tomar en cuenta para el desarrollo de la solucion:
+    1. Ya se tienen establecidos los recargos que se aplicaran
+    (Cliente, Conyugue, Hijos, Propiedades e ingresos)
+    2. Pedir al usuario el ingreso de los datos
+    3. Mostrar al usuario a detalle su solicitud
+
+La manera de solventar este problema, es tener las constantes de los recargos,
+luego hacer que el usuario final ingrese los datos que se le solicitan;
+las preguntas no deben de ser ambiguas.
+
+Esto guardara dichos datos y los procesaremos internamente para que luego
+se le pueda mostrar al usuario a detalle toda la cotización.
